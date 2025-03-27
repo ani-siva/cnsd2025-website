@@ -1,4 +1,4 @@
-#Website for CNSD 2025
+# Website for CNSD 2025
 
 Minimalistic website that I designed for the Conference on Nonlinear Systems and Dynamics held at Bharathidasan University from 10th - 13th March 2025. 
 
