@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <link type="text/css" rel="stylesheet" href="eventapp.css">
+        <meta name="viewport" content="widht=device-width,initial-scale=1.0">
+        <!--font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+        <title>CNSD 2025</title>
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="navbar-left">
+                <a href="index.html">
+                    <img src="assets/cnsdlogo.jpeg"></img></a>
+                <a href="about.html" style="text-decoration:none;color:black;">
+                <div>About</div>
+                </a>
+                <a href="payment.html" style="text-decoration:none;color:black;">
+                    <div>Payment</div>
+                </a>
+                <a href="event.html" style="text-decoration:none;color:black;">
+                <div class="eventitle">Event Details</div>
+                </a>
+                <a href="contact.html" style="text-decoration:none;color:black;">
+                <div>Contact</div>
+                </a>
+            </div>
+            <div class="navbar-right">
+                <div class="date">
+                    <img src="assets/calendar-outline.svg"></img>
+                    <div>10-13 March 2025</div>
+                </div>
+                    <a href="https://www.google.com/maps/place/Bharathidasan+University/@10.6779768,78.7358504,17z/data=!4m6!3m5!1s0x3baa894dc214523f:0xb0df6f77eebd7c73!8m2!3d10.6779768!4d78.7384253!16zL20vMDY1NzJx?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="text-decoration:none; color:black">
+                <div class="bdu-loc">
+                    <img src="assets/compass-outline.svg"></img>
+                        <div>Bharathidasan University, Trichy</div>
+                </div></a>
+                <a href="https://forms.gle/W6tT3KeW2k32yhzs7" style="text-decoration:none" target="_blank">
+                    <div class="register">Register</div></a>
+            </div>
+        </div>
+
+
+        <div class = "main">
+            <div class="speakers-container" id="faded">
+                <div class = "speakers-title">
+                    Confirmed Speakers
+                </div>
+                <div class="speaker-body">
+                    <div class = "speaker-main">
+                        <img src="assets/speakers/santhanam.jpeg"></img>
+                        <div class = "speakers-list">
+                            <div id= "speaker-name">M.S. Santhanam</div><div id= "speaker-inst">IISER Pune</div>
+                        </div>
+                    </div>
+                    <div class = "speaker-main">
+                        <img src="assets/speakers/ambika.jpeg"></img>
+                        <div class = "speakers-list">
+                            <div id= "speaker-name">G. Ambika</div><div id= "speaker-inst">IISER Trivandrum</div>
+                        </div>
+                    </div>
+                    <div class = "speaker-main">
+                        <img src="assets/speakers/sujith.jpeg"></img>
+                        <div class = "speakers-list">
+                            <div id= "speaker-name">R.I. Sujith</div><div id= "speaker-inst">IIT Madras</div>
+                        </div>
+                    </div>
+                    <div class = "speaker-main">
+                        <img src="assets/speakers/lakshmanan.jpg"></img>
+                        <div class = "speakers-list">
+                            <div id= "speaker-name">M. Lakshmanan</div><div id= "speaker-inst">Bharathidasan University</div>
+                        </div>
+                    </div>
+                    <div class = "speaker-main">
+                        <img src="assets/speakers/dana.jpeg"></img>
+                        <div class = "speakers-list">
+                            <div id= "speaker-name">Syamal K. Dana</div><div id= "speaker-inst"></div>
+                        </div>
+                    </div>
+                    <div class = "speaker-main">
+                        <img src="assets/speakers/awadesh.jpeg"></img>
+                        <div class = "speakers-list">
+                            <div id= "speaker-name">Awadesh Prasad</div><div id= "speaker-inst">Delhi University</div>
+                        </div>
+                    </div>
+                    <div class = "speaker-main">
+                        <img src="assets/speakers/sitabhra.jpeg"></img>
+                        <div class = "speakers-list">
+                            <div id= "speaker-name">Sitabhra Sinha</div><div id= "speaker-inst">IMSC, Chennai</div>
+                        </div>
+                    </div>
+                    <div class = "speaker-main">
+                        <img src="assets/speakers/govind.jpg"></img>
+                        <div class = "speakers-list">
+                            <div id= "speaker-name">Govind Krishnaswami</div><div id= "speaker-inst">CMI, Chennai</div>
+                        </div>
+                    </div>
+                    <div class = "speaker-main">
+                        <img src="assets/speakers/anandamohan.jpg"></img>
+                        <div class = "speakers-list">
+                            <div id= "speaker-name">Anandamohan Ghosh</div><div id= "speaker-inst">IISER Kolkata</div>
+                        </div>
+                    </div>
+                    <div class = "speaker-main">
+                        <img src="assets/speakers/rumi.jpeg"></img>
+                        <div class = "speakers-list">
+                            <div id= "speaker-name">Rumi De</div><div id= "speaker-inst">IISER Kolkata</div>
+                        </div>
+                    </div>
+                    <div class = "speaker-main">
+                        <img src="assets/speakers/ramaswamy.jpeg"></img>
+                        <div class = "speakers-list">
+                            <div id= "speaker-name">Ram Ramaswamy</div><div id= "speaker-inst"></div>
+                        </div>
+                    </div>
+                    <div class = "speaker-main">
+                        <img src="assets/speakers/arul.jpg"></img>
+                        <div class = "speakers-list">
+                            <div id= "speaker-name">Arul Lakshminarayan</div><div id= "speaker-inst">IIT Madras</div>
+                        </div>
+                    </div>
+                    <div class = "speaker-main">
+                        <img src="assets/speakers/default.jpeg"></img>
+                        <div class = "speakers-list">
+                            <div id= "speaker-name">Nithin Nagaraj</div><div id= "speaker-inst">NIAS, Bangalore</div>
+                        </div>
+                    </div>
+                    <div class = "speaker-main">
+                        <img src="assets/speakers/murali.jpg"></img>
+                        <div class = "speakers-list">
+                            <div id= "speaker-name">K. Murali</div><div id= "speaker-inst">Anna University, Chennai</div>
+                        </div>
+                    </div>
+                    <div class = "speaker-main">
+                        <img src="assets/speakers/sangeeta.jpg"></img>
+                        <div class = "speakers-list">
+                            <div id= "speaker-name">Sangeeta Ujjwal</div><div id= "speaker-inst"></div>
+                        </div>
+                    </div>
+                    <div class = "speaker-main">
+                        <img src="assets/speakers/neelima.jpg"></img>
+                        <div class = "speakers-list">
+                            <div id= "speaker-name">Neelima Gupte</div><div id= "speaker-inst">IIT Madras</div>
+                        </div>
+                    </div>
+                    <div class = "speaker-main">
+                        <img src="assets/speakers/soumitro.jpeg"></img>
+                        <div class = "speakers-list">
+                            <div id= "speaker-name">Soumitro Banerjee</div><div id= "speaker-inst">IISER Kolkata</div>
+                        </div>
+                    </div>
+                    <div class = "speaker-main">
+                        <img src="assets/speakers/kanna.jpeg"></img>
+                        <div class = "speakers-list">
+                            <div id= "speaker-name">T.Kanna</div><div id= "speaker-inst">Bishop Heber College, Trichy</div>
+                        </div>
+                    </div>
+                    <div class = "speaker-main">
+                        <img src="assets/speakers/malay.jpg"></img>
+                        <div class = "speakers-list">
+                            <div id= "speaker-name">Malay Banerjee</div><div id= "speaker-inst">IIT Kanpur</div>
+                        </div>
+                    </div>
+                    <div class = "speaker-main">
+                        <img src="assets/speakers/lakshmibala.jpg"></img>
+                        <div class = "speakers-list">
+                            <div id= "speaker-name">Lakshmi Bala</div><div id= "speaker-inst">IIT Madras</div>
+                        </div>
+                    </div>
+                    <div class = "speaker-main">
+                        <img src="assets/speakers/dvs.jpg"></img>
+                        <div class = "speakers-list">
+                            <div id= "speaker-name">D.V. Senthilkumar</div><div id= "speaker-inst">IISER Trivandrum</div>
+                        </div>
+                    </div>
+                    <div class = "speaker-main">
+                        <img src="assets/speakers/vkc.jpeg"></img>
+                        <div class = "speakers-list">
+                           <div id= "speaker-name">V. K. Chandrasekar</div><div id= "speaker-inst">SASTRA, Thanjavur</div>
+                        </div>
+                    </div>
+                    <div class = "speaker-main">
+                        <img src="assets/speakers/sudeshna.jpg"></img>
+                        <div class = "speakers-list">
+                            <div id= "speaker-name">Sudeshna Sinha</div><div id= "speaker-inst">IISER Mohali</div>
+                        </div>
+                    </div>
+                    <div class = "speaker-main">
+                        <img src="assets/speakers/sudhir.jpeg"></img>
+                        <div class = "speakers-list">
+                            <div id= "speaker-name">Sudhir Jain</div><div id= "speaker-inst">BARC, Mumbai</div>
+                        </div>
+                    </div>
+                    <div class = "speaker-main">
+                        <img src="assets/speakers/utpal.jpeg"></img>
+                        <div class = "speakers-list">
+                            <div id= "speaker-name">Utpal Roy</div><div id= "speaker-inst">IIT Patna</div>
+                        </div>
+                    </div>
+                    <div class = "speaker-main">
+                        <img src="assets/speakers/prasanta.jpg"></img>
+                        <div class = "speakers-list">
+                            <div id= "speaker-name">Prasanta Panigrahi</div><div id= "speaker-inst">IISER Kolkata</div>
+                        </div>
+                    </div>
+                    <div class = "speaker-main">
+                        <img src="assets/speakers/avinash.jpeg"></img>
+                        <div class = "speakers-list">
+                            <div id= "speaker-name">Avinash Khare</div><div id= "speaker-inst">IISER Pune</div>
+                        </div>
+                    </div>
+                    <div class = "speaker-main">
+                        <img src="assets/speakers/priyam.jpg"></img>
+                        <div class = "speakers-list">
+                            <div id= "speaker-name">Priyam Das</div><div id= "speaker-inst">Bankura Sammilani College, Bankura</div>
+                        </div>
+                    </div>
+                    <div class = "speaker-main">
+                        <img src="assets/speakers/ayan.jpg"></img>
+                        <div class = "speakers-list">
+                            <div id= "speaker-name">Ayan Khan</div><div id= "speaker-inst">Bennett University</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="htr-container" id="faded">
+                <div class="htr-title">
+                   Reaching BDU 
+                </div>
+                <div class="htr-content">
+                    Bharathidasan University Main Campus is located on the Tiruchirappalli - Pudukkottai highway (NH210), about 18km from Tiruchirappalli Railway Junction / Central Bus Stand and 10km from Tiruchirappalli Airport.
+                    <ul>
+                        <li><b>By Bus:</b> You can reach the campus by taking a bus going towards Pudukkottai or Keeranur from the bus stand /railway station/ airport. The fare is approximately <b>INR 20</b>. State run buses (colored in pink) are free of charge for women passengers.</li>
+                        <li><b>By Taxi:</b> You can also hire a taxi from the bus stand/ railway station/airport to reach the campus. The approximate fare is <b>INR 600</b></li>
+                    </ul>
+
+                    For more details on how to reach the University, please visit this <a href="https://www.bdu.ac.in/maps-and-directions.php">official link</a>.
+                </div>
+            </div>
+        </div>
+
+        <div class="program-details" id="faded">
+            More details to follow 
+        </div>
+
+    </body>
+</html>

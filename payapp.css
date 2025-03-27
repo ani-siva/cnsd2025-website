@@ -1,0 +1,640 @@
+body
+{
+    display:flex;
+    flex-direction:column;
+    margin:0px;
+    font-family:"Roboto",serif;
+    max-width:100%;
+}
+
+
+.navbar
+{
+    padding:0px;
+    font-size:20px;
+    display:flex; 
+    justify-content:space-between;
+    align-items:center;
+    box-shadow: 0px 4px 5px 0px rgba(191,122,122,0.71);
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(191,122,122,0.71);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(191,122,122,0.71);
+    max-width:120%;
+}
+.navbar-left img
+{
+    width:120px;
+    margin-right:20px;
+    border-radius:50%;
+    transition:transform ease 0.5s;
+}
+
+.navbar-left div
+{
+    text-transform:uppercase;
+    font-weight:500;
+    transition:transform ease 0.5s;
+    padding:10px
+}
+
+.navbar-left div:hover,
+.bdu-loc:hover
+{
+    transform:translateY(-5px);
+    color:#5e81ac;
+}
+
+.navbar-left img:hover
+{
+    transform:translateY(-5px);
+    -webkit-box-shadow: 2px 2px 36px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 36px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 36px 0px rgba(0,0,0,0.75);
+}
+
+.navbar-left,
+.navbar-right
+{
+    display:flex;
+    align-items:center;
+}
+
+.navbar-left > *, 
+.navbar-right > *{
+    margin:10px;
+}
+
+.payment
+{
+    color:white;
+    background-color:black;
+}
+.navbar-right img 
+{
+    width:40px;
+}
+
+.bdu-loc
+{
+    display:flex;
+    align-items:center;
+    column-gap:10px;
+    font-weight:400;
+    transition:transform ease 0.5s;
+}
+
+.date
+{
+    display:flex;
+    align-items:center;
+    column-gap:10px;
+    font-weight:400;
+    color:black;
+}
+.register
+{
+    font-weight:400;
+    border:2px solid black;
+    border-radius:40px;
+    padding:5px 20px 5px 20px;
+    background-color:black;
+    color:white;
+    transition:background-color ease-in 0.5s;
+    transition:color ease-in 0.5s;
+}
+
+.register:hover
+{
+    border:2px solid black;
+    background-color:white;
+    color:black;
+}
+
+.pricing-container
+{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:top;
+    column-gap:40px;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+.pricing-container > *
+{
+    width:300px;
+    font-weight:400;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    text-align:center;
+    border:3px solid black;
+    padding:20px;
+    -webkit-box-shadow: 26px 29px 5px -11px rgba(0,0,0,0.56);
+    -moz-box-shadow: 26px 29px 5px -11px rgba(0,0,0,0.56);
+    box-shadow: 26px 29px 5px -11px rgba(0,0,0,0.56);
+}
+
+
+
+.hostel-container
+{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:top;
+    column-gap:40px;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+.hostel-pricing
+{
+    width:300px;
+    height:550px;
+    font-weight:400;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    justify-content:flex-start;
+    border:3px solid black;
+    padding:20px;
+    -webkit-box-shadow: 26px 29px 5px -11px rgba(0,0,0,0.56);
+    -moz-box-shadow: 26px 29px 5px -11px rgba(0,0,0,0.56);
+    box-shadow: 26px 29px 5px -11px rgba(0,0,0,0.56);
+}
+
+
+
+
+.price-title
+{
+    font-size:30px;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+.price-subtitle
+{
+    font-size:25px;
+    margin-bottom:20px;
+}
+
+.tiers
+{
+    display:flex;
+    flex-direction:column;
+    row-gap:20px;
+}
+.tier
+{
+    display:flex;
+    flex-direction:column;
+    font-size:25px;
+    row-gap:10px;
+    align-items:center;
+}
+
+#amount
+{
+    background-color:#5e81ac;
+    padding:10px 10px 10px 10px;
+    border-radius:20px;
+    color:white;
+    font-weight:400;
+    border:2px solid black;
+}
+
+#amount2
+{
+    background-color:#bf616a;
+    padding:10px 10px 10px 10px;
+    font-weight:400;
+    border-radius:20px;
+    color:white;
+    border:2px solid black;
+}
+
+
+.paynow
+{
+    display:flex;
+    justify-content:center;
+    width:100%;
+    max-width:100%;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+.paynow div{
+    font-size:25px;
+    color:black;
+    font-weight:400;
+    border:2px solid black;
+    padding:10px;
+    border-radius:30px;
+    padding:10px 50px 10px 50px;
+    transition:background-color ease-in 0.5s;
+    transition:color ease-in 0.5s;
+}
+
+.paynow div:hover{
+    background-color:black;
+    color:white;
+}
+
+
+.note
+{
+    text-align:center;
+    margin-top:20px;
+    padding:10px;
+    font-size:25px;
+}
+.note-details
+{
+    text-align:center;
+    margin-top:20px;
+    padding:10px;
+    font-size:20px;
+}
+
+.tier-containers
+{
+    display:flex;
+}
+.details-content
+{
+    display:flex;
+    width:300px;
+    height:550px;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border:3px solid black;
+    padding:20px;
+    -webkit-box-shadow: 26px 29px 5px -11px rgba(0,0,0,0.56);
+    -moz-box-shadow: 26px 29px 5px -11px rgba(0,0,0,0.56);
+    box-shadow: 26px 29px 5px -11px rgba(0,0,0,0.56);
+}
+
+.details-content ul
+{
+    width:300px;
+}
+
+.details-content li
+{
+    padding:10px;
+    font-size:25px;
+}
+
+.paydetails-container
+{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    margin-top:20px;
+    column-gap:30px;
+}
+
+.paydetails-container > *
+{
+    width:300px;
+    height:400px;
+    -webkit-box-shadow: 26px 29px 5px -11px rgba(0,0,0,0.56);
+    -moz-box-shadow: 26px 29px 5px -11px rgba(0,0,0,0.56);
+    box-shadow: 26px 29px 5px -11px rgba(0,0,0,0.56);
+}
+
+.qrcode-container img
+{
+    width:100%;
+    height:100%;
+    border:3px solid black;
+}
+
+.account-box
+{
+    display:flex;
+    width:375px;
+    border:3px solid black;
+    flex-direction:column;
+    justify-content:flex-start;
+}
+
+#maintitle
+{
+    text-align:center;
+    font-size:30px;
+    font-weight:400;
+    color:#eceff4;
+    background-color:#5381ac;
+    border-bottom:3px solid black;
+}
+
+.info
+{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    text-align:left;
+    padding:10px;
+    font-size:20px;
+}
+
+#title
+{
+    font-weight:450;
+}
+
+
+
+
+#appeared
+{
+    animation-name:appear;
+    animation-duration:2s;
+    animation-iteration-count:1;
+    animation-timing-function:ease-in;
+}
+
+
+#fadeprice
+{
+    animation-name:frombelow;
+    animation-duration:1s;
+    animation-iteration-count:1;
+    animation-timing-function:ease-in;
+}
+
+#fadedetails
+{
+    animation-name:fromleft;
+    animation-duration:1s;
+    animation-iteration-count:1;
+    animation-timing-function:ease-in;
+}
+
+@keyframes frombelow
+{
+    0%{opacity:0.0};
+    50%{opacity:0.5};
+    100%{opacity:1.0};
+    from{
+        transform:translateY(50px);
+    }
+    to{
+        transform:translateY(0px);
+    }
+
+}
+
+@keyframes fromleft
+{
+    0%{opacity:0.0};
+    50%{opacity:0.5};
+    100%{opacity:1.0};
+    from{
+        transform:translateX(-50px);
+    }
+    to{
+        transform:translateX(0px);
+    }
+}
+
+@keyframes appear
+{
+    0%{opacity:0.0};
+    50%{opacity:0.5};
+    100%{opacity:1.0};
+}
+
+@media only screen and (max-width:1150px)
+{
+    .navbar-right
+    {
+        flex-direction:column;
+        justify-content:flex-start;
+    }
+
+    .navbar
+    {
+        column-gap:50px;
+    }
+    .pricing-container > *
+    {
+        width:200px;
+    }
+    .account-box
+    {
+        width:375px;
+    }
+}
+
+@media only screen and (max-width:900px)
+{
+    .navbar,
+    .navbar-right,
+    .navbar-left,
+    .pricing-container,
+    .details,
+    .paydetails-container
+    {
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+
+    .navbar-left div
+    {
+        margin-right:-5px;
+        margin-left:-5px;
+    }
+    .navbar-left img
+    {
+        margin-right:0px;
+    }
+    .pricing-container,
+    .paydetails-container
+    {
+        row-gap:20px;
+    }
+    .pricing-container > *
+    {
+        width:300px;
+    }
+
+    .paydetails-container > *
+    {
+        margin-bottom:20px;
+    }
+
+}
+
+@media only screen and (max-width:768px)
+{
+    .navbar,
+    .navbar-right,
+    .navbar-left,
+    .pricing-container,
+    .details,
+    .paydetails-container
+    {
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+
+
+    .details-content ul
+    {
+        width:300px;
+    }
+
+
+    .pricing-container,
+    .paydetails-container
+    {
+        row-gap:20px;
+    }
+
+    .paydetails-container > .account-box 
+    {
+        height:400px;
+        margin-bottom:20px;
+    }
+
+    .paydetails-container > .qrcode-container 
+    {
+        height:350px;
+        margin-bottom:20px;
+    }
+
+    .navbar-left img
+    {
+        margin-right:0px;
+    }
+    .account-box
+    {
+        width:350px;
+    }
+
+    .hostel-container
+    {
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        row-gap:20px;
+    }
+
+    .details-content,
+    .hostel-pricing
+    {
+        width:300px;
+        height:600px;
+    }
+}
+
+
+@media only screen and (max-width:350px)
+{
+    .navbar,
+    .navbar-right,
+    .navbar-left,
+    .pricing-container,
+    .details,
+    .paydetails-container
+    {
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+
+
+    .price-title
+    {
+        font-size:25px;
+    }
+
+    .price-subtitle,
+    #amount,
+    #amount2,
+    .note,
+    .tier,
+    .details-content li
+    {
+        font-size:20px;
+    }
+
+
+    .details-content ul,
+    .pricing-container > *
+    {
+        width:250px;
+    }
+
+    .bdu-loc
+    {
+        text-align:center;
+        column-gap:0px;
+    }
+
+    .pricing-container,
+    .paydetails-container
+    {
+        row-gap:20px;
+    }
+
+    .paydetails-container > * 
+    {
+        width:300px;
+    }
+
+
+    .info 
+    {
+        padding:5px;
+    }
+
+    .qrcode-container
+    {
+        height:400px;
+    }
+    .qrcode-container img
+    {
+        height:100%;
+    }
+
+
+    .navbar-left img
+    {
+        margin-right:0px;
+    }
+    .paydetails-container > .account-box 
+    {
+        height:300px;
+        margin-bottom:20px;
+    }
+
+    .hostel-container
+    {
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        row-gap:20px;
+    }
+
+    .details-content,
+    .hostel-pricing
+    {
+        width:250px;
+        height:500px;
+    }
+
+}
